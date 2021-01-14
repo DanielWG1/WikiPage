@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(NBAbackground2.jpg);
+    background-size: cover;
+}
+.navbar {
+    width: 100vw;
+    height: 8vh;
+    background-color: #003366;
+    opacity: 0.9;
+   position: fixed;
+}
+.navbar p {
+float: left;
+color: white;
+font-weight: bold;
+font-size: 22px;
+padding: 5px 35px;
+}
+.navbar ul {
+    float: left;
+}
+.navbar ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.navbar ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 35px;
+    text-decoration: none;
+}
+.navbar ul li ul {
+    display: block;
+    position: absolute;
+    background-color:  #003366;
+}
