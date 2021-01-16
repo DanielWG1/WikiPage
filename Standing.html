@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>NBA</title> 
     <link rel="stylesheet" href="Style/wiki.css">
+    <link rel="shortcut icon" href="Style/favicon.ico">
 </head>
 <header class="app-header">
-    <div>
-      <nav class="app-nav">
+  <nav class="app-nav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li class="active-title"><a href="Standing.html">STANDINGS</a></li>
+      <li class="dropdown">TEAMS
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="Standing.html">STANDING</a></li>
-          <li class="teams-li">TEAMS
-            <ul>
-              <li><a href="Miami.html">MIAMI</a></li>
-              <li><a href="Boston.html">BOSTON</a></li>
-              <li><a href="Lakers.html">LA LAKERS</a></li>
-            </ul>
-          </li>
-          <li><a href="GameRcap.html">GAME RECAP</a></li>
-          <li><a href="Store.html">STORE</a></li>
-          <li><a href="Contact.html">CONTACT US</a></li>
+          <li><a href="Miami.html">MIAMI</a></li>
+          <li><a href="Boston.html">BOSTON</a></li>
+          <li><a href="Lakers.html">LA LAKERS</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
-<body>
-    <h1>STANDING TABLE</h1>
-      <h2>WESTERN CONFERENCE</h2>
-        <table id="table1">
+      </li>
+      <li><a href="GameRcap.html">GAME RECAP</a></li>
+      <li><a href="Store.html">STORE</a></li>
+      <li><a href="Contact.html">CONTACT US</a></li>
+    </ul>
+  </nav>
+</header>
+<body class="standing-body">
+  <div class="standing-div">
+      <h1 class="table-headline">WESTERN CONFERENCE</h1>
+        <table class="standing-table">
           <thead>
             <tr>
               <th>TEAM</th>
@@ -41,14 +40,13 @@
           </thead>
             <tbody>
               <tr>
-                <td>BOS/td>
+                <td>BOS</td>
                 <td>10</td>
                 <td>0.700</td>
                 <td>7</td>
                 <td>3</td>
               </tr>
-            </tbody>            
-            <tbody>
+                     
               <tr>
                 <td>MIL</td>
                 <td>12</td>
@@ -56,8 +54,6 @@
                 <td>8</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
               <tr>
                 <td>PHI</td>
                 <td>12</td>
@@ -65,8 +61,6 @@
                 <td>8</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
               <tr>
                 <td>IND</td>
                 <td>11</td>
@@ -74,8 +68,7 @@
                 <td>7</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>ORL</td>
                 <td>11</td>
@@ -83,8 +76,7 @@
                 <td>6</td>
                 <td>5</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>BKN</td>
                 <td>13</td>
@@ -92,8 +84,7 @@
                 <td>7</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>CHA</td>
                 <td>12</td>
@@ -101,8 +92,7 @@
                 <td>6</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>ATL</td>
                 <td>10</td>
@@ -110,8 +100,7 @@
                 <td>5</td>
                 <td>5</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>MIA</td>
                 <td>9</td>
@@ -119,8 +108,7 @@
                 <td>4</td>
                 <td>5</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>NYK</td>
                 <td>12</td>
@@ -128,8 +116,7 @@
                 <td>5</td>
                 <td>7</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>CLE</td>
                 <td>12</td>
@@ -137,8 +124,7 @@
                 <td>5</td>
                 <td>7</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>CHI</td>
                 <td>11</td>
@@ -146,8 +132,7 @@
                 <td>4</td>
                 <td>7</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>WAS</td>
                 <td>11</td>
@@ -155,8 +140,7 @@
                 <td>3</td>
                 <td>8</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>TOR</td>
                 <td>10</td>
@@ -164,8 +148,7 @@
                 <td>2</td>
                 <td>8</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>DET</td>
                 <td>11</td>
@@ -176,8 +159,8 @@
             </tbody>            
           
         </table>
-        <table id="table2">
-          <h2>EASTERN CONFERENCE</h2>
+        <table class="standing-table">
+          <h1 id="eastern-heading" class="table-headline">EASTERN CONFERENCE</h1>
           <thead>
             <tr>
               <th>TEAM</th>
@@ -195,8 +178,7 @@
                 <td>10</td>
                 <td>3</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>LAC</td>
                 <td>12</td>
@@ -204,8 +186,7 @@
                 <td>8</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>UTA</td>
                 <td>11</td>
@@ -213,8 +194,7 @@
                 <td>7</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>PHX</td>
                 <td>11</td>
@@ -222,8 +202,7 @@
                 <td>7</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>POR</td>
                 <td>11</td>
@@ -231,8 +210,7 @@
                 <td>7</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>DAL</td>
                 <td>10</td>
@@ -240,8 +218,7 @@
                 <td>6</td>
                 <td>4</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>GSW</td>
                 <td>11</td>
@@ -249,8 +226,7 @@
                 <td>6</td>
                 <td>5</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>SAS</td>
                 <td>11</td>
@@ -258,8 +234,7 @@
                 <td>6</td>
                 <td>5</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>DEN</td>
                 <td>11</td>
@@ -267,8 +242,7 @@
                 <td>5</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>MEM</td>
                 <td>11</td>
@@ -276,8 +250,7 @@
                 <td>5</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>OKC</td>
                 <td>11</td>
@@ -285,8 +258,7 @@
                 <td>5</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>SAC</td>
                 <td>12</td>
@@ -294,8 +266,7 @@
                 <td>5</td>
                 <td>7</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>NOP</td>
                 <td>10</td>
@@ -303,8 +274,7 @@
                 <td>4</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+           
               <tr>
                 <td>HOU</td>
                 <td>9</td>
@@ -312,8 +282,7 @@
                 <td>3</td>
                 <td>6</td>
               </tr>
-            </tbody>            
-            <tbody>
+            
               <tr>
                 <td>MIN</td>
                 <td>11</td>
@@ -324,6 +293,6 @@
             </tbody>            
           
         </table>
-    
+  </div>
 </body>
 </html>
