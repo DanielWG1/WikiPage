@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 .app-header {
-    min-height: 20vh;
+     min-height: 20vh; 
 }
 .app-nav {
     display: flex;
@@ -29,13 +29,16 @@ body {
     background-color: #003366;
 }
 .app-nav ul li {
-    margin-left: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #003366;
 }
-.teams-li ul {
+.app-nav ul li:hover {
+    background-color: #0066cc;
+    
+}
+.dropdown ul {
     list-style: none;
     position: absolute;
     flex-direction: column;
@@ -43,11 +46,14 @@ body {
     margin: 0;
     padding: 0;
     top: 100%;
-    animation-name: dropdown;
+    left: 0%;
+    animation-name: dropdownanim;
     animation-duration: 1s;
     transform-origin: top;
+    width: max-content;
+    text-align: left;
 }
-@keyframes dropdown {
+@keyframes dropdownanim {
         0% {
           transform: scaleY(0)
         }
@@ -59,24 +65,26 @@ body {
         }
       }
 
-.teams-li ul li {
+.dropdown ul li {
     margin: 0;
-    padding: 4px;
-    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    border-bottom: 1px solid #001a33;
 }
-.teams-li:hover ul {
+.dropdown:hover ul {
     display: flex;
 }
-.teams-li {
 
-}
-.teams-li {
+.dropdown {
     position: relative;
 }
-.app-nav ul li ul li a {
-    
-}
+
 .app-nav ul li a {
     text-decoration: none;
+    padding: 2px 15px;
 }
-
+.dropdown {
+    padding: 2px 15px;
+}
+.dropdown ul li a {
+    padding-left: 0%;
+}
