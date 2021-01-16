@@ -101,9 +101,7 @@ body {
 .dropdown ul li a {
     padding-left: 0;
 }
-.homepage-body {
-    background-image: url(NBAbackground2.jpg);
-}
+
 .lakers-body {
     background-image: url(LakersBackground.jpg);
 }
@@ -113,10 +111,13 @@ body {
 .boston-body {
     background-image: url(CelticsBackground.jpg);
 }
-.standing-body {
+
+
+.game-recap-body {
     background-image: url(NBAbackground2.jpg);
 }
-.game-recap-body {
+/* Standing page */
+.standing-body {
     background-image: url(NBAbackground2.jpg);
 }
 .standing-div {
@@ -126,7 +127,7 @@ body {
     background-color: #f2f2f2;
     opacity: 0.9;
     z-index: -1;
-}
+ }
 
 .standing-table {
     border-collapse: collapse;
@@ -155,4 +156,28 @@ body {
 }
 .standing-table tr:hover {
 background-color: #e6f2ff;
+}
+/* home page */
+.homepage-body {
+    background-image: url(NBAbackground2.jpg);
+}
+.home-div {
+    box-sizing: border-box; 
+    margin: 20px;
+    opacity: 0.9;
+    height: 70vh;
+}
+.home-div h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.home-div h3 {
+    margin-top: 80px;
+}
+.home-div p {
+    margin-top: 40px;
+}
+.the-shot {
+    margin-left: 30vw;
 }
