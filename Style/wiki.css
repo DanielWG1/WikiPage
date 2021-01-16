@@ -245,3 +245,22 @@ span {
 .input {
     background-color:  #003366;
 }
+
+/* footer */
+
+.footer {
+    background-color: black;
+    opacity: 0.8;
+}
+.gitlink{
+    margin-right: 2vh;
+}
+.fcclink {
+    margin-right: 2vh;
+}
+.emailadd {
+    margin-right: 2vh;
+}
+.facebookadd {
+    margin-right: 2vh;
+}
