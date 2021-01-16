@@ -211,6 +211,26 @@ span {
     opacity: 0.98;
     color: black;
 }
+
+/* miami page */
+.miami-video {
+    margin-top: 20vh;
+}
+.miami-left-video {
+    margin-left: 2vw;
+    margin-right: 6vw;
+}
+
+/* boston page */
+
+.boston-video{
+    margin-top: 20vh;
+}
+.boston-left-video {
+    margin-left: 2vw;
+    margin-right: 6vw;
+}
+
 /* contact page */
 
 .contact-headline {
