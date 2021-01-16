@@ -16,7 +16,7 @@ body {
 }
 .app-nav {
     display: flex;
-    
+    min-height: 9vh;
 }
 .app-nav >ul {
     list-style-type: none;
@@ -24,23 +24,59 @@ body {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: #003366;
     opacity: 0.8;
     width: 100%;
+    background-color: #003366;
 }
 .app-nav ul li {
     margin-left: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #003366;
+}
+.teams-li ul {
+    list-style: none;
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    animation-name: dropdown;
+    animation-duration: 1s;
+    transform-origin: top;
+}
+@keyframes dropdown {
+        0% {
+          transform: scaleY(0)
+        }
+        80% {
+          transform: scaleY(1.1)
+        }
+        100% {
+          transform: scaleY(1)
+        }
+      }
+
+.teams-li ul li {
+    margin: 0;
+    padding: 4px;
+    border-bottom: 1px solid whitesmoke;
+}
+.teams-li:hover ul {
+    display: flex;
 }
 .teams-li {
-    list-style-type: none;
+
+}
+.teams-li {
+    position: relative;
 }
 .app-nav ul li ul li a {
     
 }
 .app-nav ul li a {
-    
+    text-decoration: none;
 }
 
