@@ -181,3 +181,26 @@ background-color: #e6f2ff;
 .the-shot {
     margin-left: 30vw;
 }
+/* game recap */
+.first-video-row {
+    margin-right: 6vw;
+    margin-left: 2vw;
+}
+.second-video-div {
+    margin-top: 60px;
+}
+.second-video-row {
+    margin-right: 6vw;
+    margin-left: 2vw;
+}
+.third-video-row {
+    margin-right: 6vw;
+    margin-left: 2vw;   
+}
+.third-video-div {
+    margin-top: 60px;
+}
+span {
+    margin-right: 50vw;
+    margin-left: 30px;
+}
