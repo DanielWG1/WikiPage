@@ -1,49 +1,46 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     color: white;
     font-size: 16px;
+    box-sizing: border-box;
 }
 body {
     background-image: url(NBAbackground2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
 }
-/*.navbar {
-    width: 100vw;
-    height: 8vh;
+.app-header {
+    min-height: 20vh;
+}
+.app-nav {
+    display: flex;
+    
+}
+.app-nav >ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #003366;
-    opacity: 0.9;
-   position: fixed;
+    opacity: 0.8;
+    width: 100%;
 }
-.navbar p {
-float: left;
-color: white;
-font-weight: bold;
-font-size: 22px;
-padding: 5px 35px;
+.app-nav ul li {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.navbar ul {
-    float: left;
+.teams-li {
+    list-style-type: none;
 }
-.navbar ul li {
-    float: left;
-    list-style: none;
-    position: relative;
+.app-nav ul li ul li a {
+    
 }
-.navbar ul li a {
-    display: block;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px 35px;
-    text-decoration: none;
+.app-nav ul li a {
+    
 }
-.navbar ul li ul {
-    display: block;
-    position: absolute;
-    background-color:  #003366;
-} */
-.story-section {
-    text-align: center;
-    position: relative;
-    margin-top: 30% ;
-}
+
