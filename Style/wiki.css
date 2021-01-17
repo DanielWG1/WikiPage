@@ -1,3 +1,7 @@
+
+
+/* genrarl */
+
 * {
     font-family: sans-serif, Arial, Helvetica;
     color: white;
@@ -114,6 +118,7 @@ body {
 
 
 /* Standing page */
+
 .standing-body {
     background-image: url(NBAbackground2.jpg);
 }
@@ -154,6 +159,7 @@ body {
 .standing-table tr:hover {
 background-color: #e6f2ff;
 }
+
 /* home page */
 
 .homepage-body {
@@ -179,6 +185,7 @@ background-color: #e6f2ff;
 .the-shot {
     margin-left: 30vw;
 }
+
 /* game recap */
 
 .game-recap-body {
@@ -212,9 +219,16 @@ span {
 .lakers-body {
     background-image: url(LakersBackground.jpg);
 }
+.lakers-body h1{
+    color: blueviolet;
+    font-size: 25px;
+    text-align: center;
+}
 .lakers-paragraph {
     opacity: 0.98;
     color: var(--black);
+    background-color: white;
+    opacity: 0.9;
 }
 
 /* miami page */
