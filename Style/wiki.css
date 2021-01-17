@@ -21,9 +21,11 @@ body {
     --black: #000000;
     --deep-blue: #003366;
     --maroon: rgb(45, 15, 23);
+    --dark-white: #808080;
 }
 
 /* navbar */
+
 .app-header {
      min-height: 20vh; 
 }
@@ -140,7 +142,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #808080;
+    background-color: var(--dark-white);
 }
 #eastern-heading {
     padding-top: 60px;
