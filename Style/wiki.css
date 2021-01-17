@@ -10,6 +10,15 @@ body {
     background-attachment: fixed;
     margin: 0;
 }
+
+/* variables*/
+
+:root {
+    --black: #000000;
+    --deep-blue: #003366;
+    --maroon: rgb(45, 15, 23);
+}
+
 /* navbar */
 .app-header {
      min-height: 20vh; 
@@ -42,13 +51,13 @@ body {
     flex-wrap: wrap;
     opacity: 0.8;
     width: 100%;
-    background-color: #003366;
+    background-color: var(--deep-blue);
 }
 .app-nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #003366;
+    background-color: var(--deep-blue);
 }
 .app-nav ul li:hover {
     background-color: #0066cc;
@@ -145,7 +154,7 @@ body {
     padding-top: 60px;
 }
 .table-headline {
-    background-color: rgb(45, 15, 23);
+    background-color: var(--maroon);
     margin: 0%;
     padding: 20px;
 }
@@ -209,7 +218,7 @@ span {
 /* lakers page */
 .lakers-paragraph {
     opacity: 0.98;
-    color: black;
+    color: var(--black);
 }
 
 /* miami page */
@@ -243,13 +252,13 @@ span {
     margin-top: 15vh;
 }
 .input {
-    background-color:  #003366;
+    background-color:  var(--deep-blue);
 }
 
 /* footer */
 
 .footer {
-    background-color: black;
+    background-color: var(--black);
     opacity: 0.8;
 }
 .gitlink{
