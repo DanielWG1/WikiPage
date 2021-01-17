@@ -112,20 +112,7 @@ body {
     padding-left: 0;
 }
 
-.lakers-body {
-    background-image: url(LakersBackground.jpg);
-}
-.miami-body {
-    background-image: url(MiamiBackground2.jpg);
-}
-.boston-body {
-    background-image: url(CelticsBackground.jpg);
-}
 
-
-.game-recap-body {
-    background-image: url(NBAbackground2.jpg);
-}
 /* Standing page */
 .standing-body {
     background-image: url(NBAbackground2.jpg);
@@ -168,6 +155,7 @@ body {
 background-color: #e6f2ff;
 }
 /* home page */
+
 .homepage-body {
     background-image: url(NBAbackground2.jpg);
 }
@@ -192,6 +180,10 @@ background-color: #e6f2ff;
     margin-left: 30vw;
 }
 /* game recap */
+
+.game-recap-body {
+    background-image: url(NBAbackground2.jpg);
+}
 .first-video-row {
     margin-right: 6vw;
     margin-left: 2vw;
@@ -216,12 +208,20 @@ span {
 }
 
 /* lakers page */
+
+.lakers-body {
+    background-image: url(LakersBackground.jpg);
+}
 .lakers-paragraph {
     opacity: 0.98;
     color: var(--black);
 }
 
 /* miami page */
+
+.miami-body {
+    background-image: url(MiamiBackground2.jpg);
+}
 .miami-video {
     margin-top: 20vh;
 }
@@ -231,6 +231,10 @@ span {
 }
 
 /* boston page */
+
+.boston-body {
+    background-image: url(CelticsBackground.jpg);
+}
 
 .boston-video{
     margin-top: 20vh;
